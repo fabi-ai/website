@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fabi.ai</title>
+<meta name="description" content="Fabi.ai has shut down. The team has joined Omni.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body { height: 100%; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #2e3032;
+    background-color: #ffffff;
+    background-image: radial-gradient(circle, #e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  header {
+    padding: 32px 48px;
+  }
+
+  .logo {
+    display: inline-block;
+    line-height: 0;
+    color: #2e3032;
+    text-decoration: none;
+  }
+
+  .logo img {
+    height: 36px;
+    width: auto;
+    display: block;
+  }
+
+  main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 48px;
+  }
+
+  .content {
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: clamp(40px, 5.6vw, 72px);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin-bottom: 32px;
+    color: #2e3032;
+    text-wrap: balance;
+  }
+
+  h1 .brand {
+    color: #fc4f42;
+    white-space: nowrap;
+  }
+
+  p {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #4b5563;
+    margin: 0 auto 16px;
+    max-width: 600px;
+  }
+
+  footer {
+    padding: 24px 48px 32px;
+    color: #9ca3af;
+    font-size: 14px;
+  }
+
+  @media (max-width: 640px) {
+    header, main, footer { padding-left: 24px; padding-right: 24px; }
+    h1 { margin-bottom: 24px; }
+    p { font-size: 17px; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="/" aria-label="Fabi.ai">
+      <img src="/fabi.png" alt="Fabi.ai">
+    </a>
+  </header>
+
+  <main>
+    <div class="content">
+      <h1><span class="brand">Fabi.ai</span> has shut down.</h1>
+      <p>Thanks to everyone who built with us. The team has joined <a href="https://omni.co/">Omni</a> — continuing to build AI-native business intelligence.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; Fabi.ai &middot; Updated June 2026
+  </footer>
+</body>
+</html>
